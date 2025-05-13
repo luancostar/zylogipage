@@ -11,11 +11,11 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-20">
           <h1
-            className="flex items-baseline justify-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-roboto text-4xl font-semibold text-transparent md:text-5xl"
+            className="flex items-baseline justify-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-roboto text-4xl md:text-8xl font-semibold text-transparent "
             data-aos="fade-up"
           >
             zyl 
-            <Image className="sm:w-14" src="/images/z-icon.png" alt="Ícone Zyl" width={40} height={28} />
+            <Image className=" md:w-25" src="/images/z-icon.png" alt="Ícone Zyl" width={40} height={28} />
             gi
           </h1>
           <h3
@@ -30,8 +30,9 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-               transformando a complexidade logística em um processo claro e otimizado, onde
-               cada etapa é visível e gerenciável.
+             A <strong className="text-gray-300">plataforma definitiva de logística inteligente</strong>, comprometida com a entrega de
+dados transparentes e insights em tempo real para que empresas e operadores logísticos
+tenham total controle sobre suas operações.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
